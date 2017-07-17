@@ -24,4 +24,4 @@ PD_TARGET_PACKAGE := $(PRODUCT_OUT)/$(PIXELDUST_VERSION).zip
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(PD_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(PD_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(PD_TARGET_PACKAGE).md5sum
-	@echo "Package Complete: $(PD_TARGET_PACKAGE)" >&2
+	$(hide) ./vendor/pixeldust/tools/pd.sh
