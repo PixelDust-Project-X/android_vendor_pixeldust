@@ -218,7 +218,7 @@ $(KERNEL_ADDITIONAL_CONFIG_OUT):
 	$(hide) cmp -s $(KERNEL_ADDITIONAL_CONFIG_SRC) $@ || cp $(KERNEL_ADDITIONAL_CONFIG_SRC) $@;
 
 $(KERNEL_CONFIG): $(KERNEL_DEFCONFIG_SRC) $(KERNEL_ADDITIONAL_CONFIG_OUT)
-	@echo "Building Kernel Config"
+	$(hide) echo "Building Kernel Config"
 	$(hide) mkdir -p $(KERNEL_OUT)
 	$(call make-kernel-target,VARIANT_DEFCONFIG=$(VARIANT_DEFCONFIG) SELINUX_DEFCONFIG=$(SELINUX_DEFCONFIG) $(KERNEL_DEFCONFIG))
 	$(hide) if [ ! -z "$(KERNEL_CONFIG_OVERRIDE)" ]; then \
@@ -235,7 +235,7 @@ $(KERNEL_CONFIG): $(KERNEL_DEFCONFIG_SRC) $(KERNEL_ADDITIONAL_CONFIG_OUT)
 		fi
 
 $(TARGET_PREBUILT_INT_KERNEL): $(KERNEL_CONFIG)
-	@echo "Building Kernel"
+	$(hide) echo "Building Kernel"
 	$(call make-kernel-target,$(BOARD_KERNEL_IMAGE_NAME))
 	$(hide) if grep -q '^CONFIG_OF=y' $(KERNEL_CONFIG); then \
 			echo "Building DTBs"; \
