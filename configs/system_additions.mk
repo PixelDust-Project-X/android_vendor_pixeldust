@@ -82,3 +82,6 @@ PRODUCT_PACKAGES += \
     HideCutout \
     StatusBarStock
 
+# PixelSetupWizard overlay
+PRODUCT_PACKAGES += \
+    PixelSetupWizardOverlay
