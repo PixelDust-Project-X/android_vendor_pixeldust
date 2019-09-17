@@ -48,7 +48,7 @@ include vendor/pixeldust/configs/ambientsense.mk
 #$(call inherit-product, vendor/googleapps/googleapps.mk)
 
 # Vendor
-#$(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
+$(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
 
 PRODUCT_NAME := pixeldust_blueline
 PRODUCT_DEVICE := blueline
