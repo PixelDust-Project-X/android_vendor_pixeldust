@@ -66,7 +66,8 @@ PRODUCT_PACKAGES += \
     Longshot \
     Recorder \
     OmniRecord \
-    WallpaperPicker2
+    WallpaperPicker2 \
+    ThemePicker
 
 # Some permissions
 PRODUCT_COPY_FILES += \
