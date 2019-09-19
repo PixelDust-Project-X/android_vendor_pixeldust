@@ -45,7 +45,7 @@ include vendor/pixeldust/configs/system_optional.mk
 include vendor/pixeldust/configs/ambientsense.mk
 
 # Google Apps
-#$(call inherit-product, vendor/googleapps/googleapps.mk)
+$(call inherit-product-if-exists, vendor/googleapps/googleapps.mk)
 
 # Vendor
 $(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
