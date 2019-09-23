@@ -44,7 +44,7 @@ include vendor/pixeldust/configs/system_optional.mk
 #include vendor/pixeldust/configs/ambientsense.mk
 
 # Google Apps
-#$(call inherit-product, vendor/googleapps/googleapps.mk)
+$(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := pixeldust_taimen
