@@ -27,7 +27,37 @@
     <color name="system_error">#ffea4335</color>
 
     <!-- Multi-sim sim colors -->
-    <color name="Teal_700">#ff5a9af8</color>
-    <color name="Teal_800">#ff5795f0</color>
+    <color name="Teal_700">@color/material_pixel_blue_light</color>
+    <color name="Teal_800">@color/material_pixel_blue_dark</color>
+    <color name="Blue_700">@color/material_pixel_blue_light</color>
+    <color name="Blue_800">@color/material_pixel_blue_dark</color>
+    <color name="Indigo_700">@color/material_pixel_blue_light</color>
+    <color name="Indigo_800">@color/material_pixel_blue_dark</color>
+    <color name="Purple_700">@color/material_pixel_blue_light</color>
+    <color name="Purple_800">@color/material_pixel_blue_dark</color>
+    <color name="Pink_700">@color/material_pixel_blue_light</color>
+    <color name="Pink_800">@color/material_pixel_blue_dark</color>
+    <color name="Red_700">@color/material_pixel_blue_light</color>
+    <color name="Red_800">@color/material_pixel_blue_dark</color>
+
+    <!-- Text colors -->
+    <color name="highlighted_text_dark">@color/material_pixel_blue_bright</color>
+    <color name="highlighted_text_light">@color/material_pixel_blue_bright</color>
+    <color name="link_text_dark">@color/material_pixel_blue_bright</color>
+    <color name="link_text_light">@color/material_pixel_blue_bright</color>
+
+    <!-- Material colors definitions -->
+    <color name="material_pixel_blue_light">#ff3e4147</color>
+    <color name="material_pixel_blue_dark">#ff2a2c31</color>
+    <color name="material_pixel_blue_bright">#ff4285f4</color>
+
+    <!-- Pixelized items -->
+    <color name="accent_material_light">@color/material_pixel_blue_bright</color>
+    <color name="accent_material_dark">@color/material_pixel_blue_bright</color>
+    <color name="system_notification_accent_color">@color/material_pixel_blue_bright</color>
+    <color name="timepicker_default_ampm_selected_background_color_material">@color/material_pixel_blue_bright</color>
+    <color name="timepicker_default_selector_color_material">@color/material_pixel_blue_bright</color>
+    <color name="datepicker_default_circle_background_color_material_light">@color/material_pixel_blue_bright</color>
+    <color name="datepicker_default_circle_background_color_material_dark">@color/material_pixel_blue_bright</color>
 
 </resources>
