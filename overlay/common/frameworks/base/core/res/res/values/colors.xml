@@ -16,7 +16,7 @@
 
 <resources>
     <!-- Default user icon colors -->
-    <color name="user_icon_1">@android:color/accessibility_focus_highlight</color>
+    <color name="user_icon_1">#ff1a73e8</color>
     <color name="user_icon_2">#ff5c6bc0</color>
     <color name="user_icon_3">#ff26a69a</color>
     <color name="user_icon_4">#ffec407a</color>
