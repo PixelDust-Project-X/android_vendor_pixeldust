@@ -82,6 +82,7 @@ PRODUCT_PACKAGES += \
     HideCutout \
     StatusBarStock
 
-# PixelSetupWizard overlay
+# Overlays
 PRODUCT_PACKAGES += \
-    PixelSetupWizardOverlay
+    PixelSetupWizardOverlay \
+    NexusLauncherReleaseOverlay
