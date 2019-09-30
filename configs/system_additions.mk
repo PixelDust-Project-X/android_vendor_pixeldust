@@ -64,8 +64,7 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     Longshot \
-    Recorder \
-    ThemePicker
+    Recorder
 
 # Some permissions
 PRODUCT_COPY_FILES += \
