@@ -67,7 +67,8 @@ PRODUCT_PACKAGES += \
     Recorder \
     OmniRecord \
     WallpaperPicker2 \
-    ThemePicker
+    ThemePicker \
+    PixelThemes
 
 # Some permissions
 PRODUCT_COPY_FILES += \
