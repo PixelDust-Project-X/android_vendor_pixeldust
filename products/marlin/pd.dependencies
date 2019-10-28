@@ -13,8 +13,8 @@
     },
     {
         "target_path":  "vendor/google",
-        "repository":   "android_vendor_google",
-        "remote":       "pdx",
+        "repository":   "lineage_vendor_google",
+        "remote":       "shagbag913",
         "revision":     "ten"
     }
 ]
