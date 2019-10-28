@@ -15,6 +15,7 @@
 # Pixel Dust ROM versioning
 ROM_VERSION := PixelDust-X
 BUILD_VERSION := aosp
+SIGN_KEY := RELEASE
 
 ifndef SIGN_KEY
   SIGN_KEY := UNOFFICIAL

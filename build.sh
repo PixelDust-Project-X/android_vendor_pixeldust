@@ -56,7 +56,7 @@ if [ -z "$THREADS" ]; then
         if [ "$(uname -s)" = 'Darwin' ]; then
                 export THREADS=$(sysctl -n machdep.cpu.core_count)
         else
-                export THREADS=$(cat /proc/cpuinfo | grep '^processor' | wc -l)
+                export THREADS=4
         fi
 fi
 
