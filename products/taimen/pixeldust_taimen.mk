@@ -54,8 +54,8 @@ TARGET_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=taimen \
-    BUILD_FINGERPRINT=google/taimen/taimen:10/QP1A.191005.007.A1/5908163:user/release-keys \
-    PRIVATE_BUILD_DESC="taimen-user 10 QP1A.191005.007.A1 5908163 release-keys"
+    BUILD_FINGERPRINT=google/taimen/taimen:10/QP1A.191105.004/5908170:user/release-keys \
+    PRIVATE_BUILD_DESC="taimen-user 10 QP1A.191105.004 5908170 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT) \
